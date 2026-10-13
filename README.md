@@ -5,7 +5,7 @@ Turns NGS survey mark datasheets into a GPX file for OsmAnd, with the full "to r
 ## Use it
 
 1. Download NGS datasheets: a state from the [NGS datasheet archive](https://geodesy.noaa.gov/pub/DS_ARCHIVE/DataSheets/), or a saved radius search from the [datasheet page](https://geodesy.noaa.gov/datasheets/). Zips are fine, including zips of county zips. For an area on a state line, load both states.
-2. Open the page, choose the files, frame your area on the map, and select "Use current map view."
+2. Open the page, add the files (one at a time works), frame your area on the map, and select "Use current map view."
 3. Select "Find marks," then "Download GPX."
 4. Open the GPX with OsmAnd.
 

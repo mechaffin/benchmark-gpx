@@ -76,6 +76,9 @@
   input[type=file] { position: absolute; width: 1px; height: 1px; opacity: 0; }
   input[type=file]:focus-visible + .file-btn, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .value { font-size: 13px; color: var(--muted); margin-top: 8px; word-break: break-word; }
+  ul.value { list-style: none; padding: 0; }
+  ul.value li { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 2px 0; }
+  button.link { background: none; color: var(--accent); padding: 0; font-size: 13px; font-weight: 500; }
   progress { width: 100%; margin-top: 10px; accent-color: var(--accent); }
   #status { font-size: 13px; margin-top: 8px; }
   #results { list-style: none; padding: 0; margin: 10px 0 0; font-size: 14px; }
@@ -99,10 +102,10 @@
   <ol class="steps">
     <li>
       <h2>Load NGS datasheets</h2>
-      <p class="hint">Download your state from the <a href="https://geodesy.noaa.gov/pub/DS_ARCHIVE/DataSheets/" target="_blank" rel="noopener">NGS datasheet archive</a>, or save a radius search from the <a href="https://geodesy.noaa.gov/datasheets/" target="_blank" rel="noopener">datasheet page</a>. Zip files are fine. For an area on a state line, load both states.</p>
+      <p class="hint">Download your state from the <a href="https://geodesy.noaa.gov/pub/DS_ARCHIVE/DataSheets/" target="_blank" rel="noopener">NGS datasheet archive</a>, or save a radius search from the <a href="https://geodesy.noaa.gov/datasheets/" target="_blank" rel="noopener">datasheet page</a>. Zip files are fine. For an area on a state line, add both states. If your phone picks one file at a time, add them one after another.</p>
       <input type="file" id="files" multiple accept=".zip,.txt,.dat,.htm,.html,text/plain,application/zip">
-      <label for="files" class="file-btn">Choose files</label>
-      <div class="value" id="file-list">No files chosen</div>
+      <label for="files" class="file-btn">Add files</label>
+      <ul class="value" id="file-list"><li>No files added</li></ul>
     </li>
     <li>
       <h2>Set the area</h2>

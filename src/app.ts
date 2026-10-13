@@ -37,15 +37,45 @@ L.control.layers({ 'USGS topo': usgsTopo, 'USGS imagery': usgsImagery, OpenStree
 let area: Bounds | null = null;
 let areaRect: L.Rectangle | null = null;
 let marks: Mark[] = [];
+// Kept outside the input because many Android pickers return one file per
+// pick, and each pick would otherwise replace the last.
+let chosen: File[] = [];
 const pins = L.layerGroup().addTo(map);
 
 fileInput.addEventListener('change', () => {
-  const files = [...(fileInput.files ?? [])];
-  fileList.textContent = files.length
-    ? files.map((f) => `${f.name} (${formatBytes(f.size)})`).join(', ')
-    : 'No files chosen';
-  updateButtons();
+  for (const f of fileInput.files ?? []) {
+    if (!chosen.some((c) => c.name === f.name && c.size === f.size)) chosen.push(f);
+  }
+  // Clearing lets the same file be picked again after it's removed.
+  fileInput.value = '';
+  renderFiles();
 });
+
+function renderFiles() {
+  fileList.replaceChildren(
+    ...chosen.map((f) => {
+      const li = document.createElement('li');
+      const name = document.createElement('span');
+      name.textContent = `${f.name} (${formatBytes(f.size)})`;
+      const remove = document.createElement('button');
+      remove.className = 'link';
+      remove.textContent = 'Remove';
+      remove.setAttribute('aria-label', `Remove ${f.name}`);
+      remove.addEventListener('click', () => {
+        chosen = chosen.filter((c) => c !== f);
+        renderFiles();
+      });
+      li.append(name, remove);
+      return li;
+    }),
+  );
+  if (!chosen.length) {
+    const li = document.createElement('li');
+    li.textContent = 'No files added';
+    fileList.append(li);
+  }
+  updateButtons();
+}
 
 areaBtn.addEventListener('click', () => {
   const b = map.getBounds();
@@ -75,13 +105,13 @@ downloadBtn.addEventListener('click', () => {
 });
 
 function updateButtons() {
-  findBtn.disabled = !(fileInput.files?.length && area);
+  findBtn.disabled = !(chosen.length && area);
 }
 
 async function find() {
-  if (!area || !fileInput.files?.length) return;
+  if (!area || !chosen.length) return;
   const bounds = area;
-  const files = [...fileInput.files];
+  const files = [...chosen];
   const byPid = new Map<string, Mark>();
   let destroyed = 0;
   let scanned = 0;
