@@ -1,0 +1,161 @@
+PROGRAM = datasheet95, VERSION = 8.12.5.20
+1        National Geodetic Survey,   Retrieval Date = OCTOBER 13, 2026
+ ZZ0001 ***********************************************************************
+ ZZ0001  DESIGNATION -  TEST GAP
+ ZZ0001  PID         -  ZZ0001
+ ZZ0001  STATE/COUNTY-  TN/SEVIER
+ ZZ0001  COUNTRY     -  US
+ ZZ0001  USGS QUAD   -  CLINGMANS DOME (2022)
+ ZZ0001
+ ZZ0001                         *CURRENT SURVEY CONTROL
+ ZZ0001  ______________________________________________________________________
+ ZZ0001* NAD 83(2011) POSITION- 35 36 40.12345(N) 083 25 30.54321(W)   ADJUSTED
+ ZZ0001* NAD 83(2011) ELLIP HT-  1506.012 (meters)        (06/27/12)   ADJUSTED
+ ZZ0001* NAVD 88 ORTHO HEIGHT -  1537.890 (meters)     5045.56  (feet) ADJUSTED
+ ZZ0001  ______________________________________________________________________
+ ZZ0001.The horizontal coordinates were established by GPS observations
+ ZZ0001.and adjusted by the National Geodetic Survey in June 2012.
+ ZZ0001
+ ZZ0001|---------------------------------------------------------------------|
+ ZZ0001| PID    Reference Object                     Distance      Geod. Az  |
+ ZZ0001|                                                             dddmmss.s |
+ ZZ0001| ZZ0091 TEST GAP RM 1                        12.345 METERS 04957     |
+ ZZ0001| ZZ0092 TEST GAP RM 2                        11.002 METERS 26856     |
+ ZZ0001|---------------------------------------------------------------------|
+ ZZ0001
+ ZZ0001                          SUPERSEDED SURVEY CONTROL
+ ZZ0001
+ ZZ0001  NAD 83(1986)-  35 36 40.12000(N)    083 25 30.54000(W) AD(       ) 1
+ ZZ0001.Superseded values are not recommended for survey control.
+ ZZ0001
+ ZZ0001_U.S. NATIONAL GRID SPATIAL ADDRESS: 17SKV8000000000(NAD 83)
+ ZZ0001_MARKER: DS = TRIANGULATION STATION DISK
+ ZZ0001_SETTING: 66 = SET IN ROCK OUTCROP
+ ZZ0001_STAMPING: TEST GAP 1934
+ ZZ0001_MARK LOGO: CGS
+ ZZ0001_MAGNETIC: N = NO MAGNETIC MATERIAL
+ ZZ0001_STABILITY: A = MOST RELIABLE AND EXPECTED TO HOLD
+ ZZ0001+STABILITY: POSITION/ELEVATION WELL
+ ZZ0001
+ ZZ0001  HISTORY     - Date     Condition        Report By
+ ZZ0001  HISTORY     - 1934     MONUMENTED       CGS
+ ZZ0001  HISTORY     - 1960     GOOD             CGS
+ ZZ0001  HISTORY     - 20190612 GOOD             GEOCAC
+ ZZ0001
+ ZZ0001                          STATION DESCRIPTION
+ ZZ0001
+ ZZ0001'DESCRIBED BY COAST AND GEODETIC SURVEY 1934
+ ZZ0001'AT THE STATE LINE PARKING AREA.
+ ZZ0001'STATION IS 45 FEET NORTH OF THE MONUMENT AND 3 FEET WEST OF
+ ZZ0001'THE STONE WALL, SET IN A ROCK OUTCROP.
+ ZZ0001
+ ZZ0001                          STATION RECOVERY (1960)
+ ZZ0001
+ ZZ0001'RECOVERY NOTE BY COAST AND GEODETIC SURVEY 1960 (JMN)
+ ZZ0001'RECOVERED AS DESCRIBED.
+ ZZ0001
+ ZZ0001                          STATION RECOVERY (2019)
+ ZZ0001
+ ZZ0001'RECOVERY NOTE BY GEOCACHING 2019 (XYZ)
+ ZZ0001'FOUND IN GOOD CONDITION. BOTH RMS ALSO FOUND.
+ ZZ0001'TAPED DISTANCES MATCH.
+1        National Geodetic Survey,   Retrieval Date = OCTOBER 13, 2026
+ ZZ0002 ***********************************************************************
+ ZZ0002  DESIGNATION -  T 99
+ ZZ0002  PID         -  ZZ0002
+ ZZ0002  STATE/COUNTY-  NC/SWAIN
+ ZZ0002  COUNTRY     -  US
+ ZZ0002  USGS QUAD   -  SMOKEMONT (2022)
+ ZZ0002
+ ZZ0002                         *CURRENT SURVEY CONTROL
+ ZZ0002  ______________________________________________________________________
+ ZZ0002* NAD 83(1986) POSITION- 35 34 12.    (N) 083 22 48.    (W)   SCALED
+ ZZ0002* NAVD 88 ORTHO HEIGHT -  1301.123 (meters)     4268.77  (feet) ADJUSTED
+ ZZ0002  ______________________________________________________________________
+ ZZ0002.The horizontal coordinates were scaled from a map and have
+ ZZ0002.an estimated accuracy of +/- 6 seconds.
+ ZZ0002
+ ZZ0002                          SUPERSEDED SURVEY CONTROL
+ ZZ0002
+ ZZ0002.No superseded survey control is available for this station.
+ ZZ0002
+ ZZ0002_MARKER: DB = BENCH MARK DISK
+ ZZ0002_SETTING: 36 = SET IN A MASSIVE STRUCTURE
+ ZZ0002_STAMPING: T 99 1931
+ ZZ0002
+ ZZ0002  HISTORY     - Date     Condition        Report By
+ ZZ0002  HISTORY     - 1931     MONUMENTED       CGS
+ ZZ0002  HISTORY     - 20110405 MARK NOT FOUND   GEOCAC
+ ZZ0002
+ ZZ0002                          STATION DESCRIPTION
+ ZZ0002
+ ZZ0002'DESCRIBED BY COAST AND GEODETIC SURVEY 1931
+ ZZ0002'IN THE NORTHEAST WINGWALL OF A CONCRETE CULVERT, 2.1 MILES
+ ZZ0002'SOUTH ALONG THE HIGHWAY FROM THE STATE LINE.
+ ZZ0002
+ ZZ0002                          STATION RECOVERY (2011)
+ ZZ0002
+ ZZ0002'RECOVERY NOTE BY GEOCACHING 2011 (ABC)
+ ZZ0002'CULVERT HAS BEEN REPLACED. NO SIGN OF THE DISK.
+1        National Geodetic Survey,   Retrieval Date = OCTOBER 13, 2026
+ ZZ0003 ***********************************************************************
+ ZZ0003  DESIGNATION -  GONE 1
+ ZZ0003  PID         -  ZZ0003
+ ZZ0003  STATE/COUNTY-  TN/SEVIER
+ ZZ0003
+ ZZ0003                         *CURRENT SURVEY CONTROL
+ ZZ0003  ______________________________________________________________________
+ ZZ0003* NAD 83(1986) POSITION- 35 37 00.0   (N) 083 26 00.0   (W)   HD_HELD2
+ ZZ0003  ______________________________________________________________________
+ ZZ0003
+ ZZ0003  HISTORY     - Date     Condition        Report By
+ ZZ0003  HISTORY     - 1950     MONUMENTED       USGS
+ ZZ0003  HISTORY     - 20150101 DESTROYED        NGS
+ ZZ0003
+ ZZ0003                          STATION DESCRIPTION
+ ZZ0003
+ ZZ0003'DESCRIBED BY US GEOLOGICAL SURVEY 1950
+ ZZ0003'AT THE OLD BRIDGE.
+1        National Geodetic Survey,   Retrieval Date = OCTOBER 13, 2026
+ ZZ0004 ***********************************************************************
+ ZZ0004  DESIGNATION -  FAR AWAY
+ ZZ0004  PID         -  ZZ0004
+ ZZ0004  STATE/COUNTY-  TN/KNOX
+ ZZ0004
+ ZZ0004                         *CURRENT SURVEY CONTROL
+ ZZ0004  ______________________________________________________________________
+ ZZ0004* NAD 83(2011) POSITION- 35 57 39.00000(N) 083 55 13.00000(W)   ADJUSTED
+ ZZ0004  ______________________________________________________________________
+ ZZ0004
+ ZZ0004  HISTORY     - Date     Condition        Report By
+ ZZ0004  HISTORY     - 1990     MONUMENTED       NGS
+1        National Geodetic Survey,   Retrieval Date = OCTOBER 13, 2026
+ ZZ0005 ***********************************************************************
+ ZZ0005  DESIGNATION -  K 12 & RESET
+ ZZ0005  PID         -  ZZ0005
+ ZZ0005  STATE/COUNTY-  TN/SEVIER
+ ZZ0005
+ ZZ0005                         *CURRENT SURVEY CONTROL
+ ZZ0005  ______________________________________________________________________
+ ZZ0005* NAD 83(1986) POSITION- 35 38 02.7   (N) 083 27 41.1   (W)   HD_HELD2
+ ZZ0005* NAVD 88 ORTHO HEIGHT -   1145.21 (+/-2cm)     3757.3   (feet) VERTCON3
+ ZZ0005  ______________________________________________________________________
+ ZZ0005
+ ZZ0005_MARKER: DV = VERTICAL CONTROL DISK
+ ZZ0005
+ ZZ0005  HISTORY     - Date     Condition        Report By
+ ZZ0005  HISTORY     - 1965     MONUMENTED       USGS
+ ZZ0005  HISTORY     - 20210815 SEE DESCRIPTION  INDIV
+ ZZ0005
+ ZZ0005                          STATION DESCRIPTION
+ ZZ0005
+ ZZ0005'DESCRIBED BY US GEOLOGICAL SURVEY 1965
+ ZZ0005'ON THE DOWNHILL SIDE OF THE ROAD AT THE SECOND PULLOFF.
+ ZZ0005
+ ZZ0005                          STATION RECOVERY (2021)
+ ZZ0005
+ ZZ0005'RECOVERY NOTE BY INDIVIDUAL 2021 (QQ)
+ ZZ0005'DISK IS BENT BUT STAMPING IS LEGIBLE.
+
+ *** retrieval complete.
+ Elapsed Time = 00:00:02
